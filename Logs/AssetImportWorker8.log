@@ -1,0 +1,633 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.3/staging' branch; Version is '6000.3.23f1 (09d2ecc7fb28) revision 643820'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26300) Core' Language: 'en' Physical Memory: 7875 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-11-22T21:58:31Z
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-daire" at "2026-11-22T21:58:31.4496627Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 11588, path: "C:/Program Files/WindowsApps/UnityTechnologies.UnityHub_4.0.1.65535_x64__2vrhnee42bhxm/app/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.19.0+4cc3dda
+  Session Id:              72ffee9264d342bd813742e544e90ed7
+  Correlation Id:          4618cf7f889fbff248633ee4fd83b83e
+  External correlation Id: 2819772252929915585
+  Machine Id:              2e7T/Xg8BbFe1hV1/voj9+aRaVM=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-daire" (connect: 0.00s, validation: 0.02s, handshake: 0.23s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-daire-notifications" at "2026-11-22T21:58:31.7103008Z"
+[Licensing::Module] Licensing Background thread has ended after 0.27s
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.3.23f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker8
+-projectPath
+C:/Users/daire/OneDrive/Documents/VrRoom-Daire
+-logFile
+Logs/AssetImportWorker8.log
+-srvPort
+51424
+-parentPid
+13172
+-analyticsCloudUserId
+5773823715122
+-analyticsCloudProjectId
+2425f1fe-7c54-43ec-b8c6-a8f5296449af
+-analyticsLocalProjectId
+ea3eab795403249a0a31ef57a6948c02
+-editorAnalyticsEnabled
+1
+-cbmEditorLicense
+27b2d56bd36df38ca443279b32cd43adc7978c2f
+-cbmMachineId
+2e7T/Xg8BbFe1hV1/voj9+aRaVM=
+-licensingIpc
+LicenseClient-daire
+-job-worker-count
+5
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/daire/OneDrive/Documents/VrRoom-Daire
+C:/Users/daire/OneDrive/Documents/VrRoom-Daire
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+Player connection [11064]  Target information:
+
+Player connection [11064]  * "[IP] 192.168.0.13 [Port] 0 [Flags] 2 [Guid] 3136336800 [EditorId] 3136336800 [Version] 1048832 [Id] WindowsEditor(7,Daire) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [11064] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [11064] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 2460.89 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 1.82 ms.
+Initialize engine version: 6000.3.23f1 (09d2ecc7fb28)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.23f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/daire/OneDrive/Documents/VrRoom-Daire/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Graphics (ID=0xa7ac)
+    Vendor:   Intel
+    VRAM:     3937 MB
+    Driver:   31.0.101.4953
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.23f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.23f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56156
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007295 seconds.
+- Loaded All Assemblies, in  0.950 seconds
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.179 seconds
+Domain Reload Profiling: 2120ms
+	BeginReloadAssembly (332ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (67ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (124ms)
+	LoadAllAssembliesAndSetupDomain (393ms)
+		LoadAssemblies (326ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (387ms)
+			TypeCache.Refresh (382ms)
+				TypeCache.ScanAssembly (355ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1180ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1058ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (96ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (161ms)
+			ProcessInitializeOnLoadAttributes (512ms)
+			ProcessInitializeOnLoadMethodAttributes (283ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 5774114963496-dairerey-UnityProStuXXXX
+  Product: Unity Student
+  Type: Assigned
+  Expiration: 2027-09-11T08:33:47Z
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.229 seconds
+Refreshing native plugins compatible for Editor in 19.19 ms, found 12 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 20.72 ms, found 12 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@68ef97a4d91e\Runtime\OculusLoader.cs:312 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0008c] in .\Library\PackageCache\com.unity.xr.oculus@68ef97a4d91e\Runtime\OculusLoader.cs:297 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <d49d4cb128564ee1b54a84338c98d353>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <d49d4cb128564ee1b54a84338c98d353>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <d49d4cb128564ee1b54a84338c98d353>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00087] in <a1c4aa6b1d6f4d71b2e529a0fc32c2fd>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-Modern Room
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  5.401 seconds
+Domain Reload Profiling: 7671ms
+	BeginReloadAssembly (411ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (64ms)
+	RebuildCommonClasses (76ms)
+	RebuildNativeTypeToScriptingClass (32ms)
+	initialDomainReloadingComplete (94ms)
+	LoadAllAssembliesAndSetupDomain (1597ms)
+		LoadAssemblies (1263ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (570ms)
+			TypeCache.Refresh (404ms)
+				TypeCache.ScanAssembly (368ms)
+			BuildScriptInfoCaches (141ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (5462ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (4396ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (11ms)
+			BeforeProcessingInitializeOnLoad (256ms)
+			ProcessInitializeOnLoadAttributes (3289ms)
+			ProcessInitializeOnLoadMethodAttributes (814ms)
+			AfterProcessingInitializeOnLoad (20ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 82.25 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 1.15 ms.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6913 unused Assets / (5.0 MB). Loaded Objects now: 7760.
+Memory consumption went from 166.9 MB to 161.9 MB.
+Total: 68.417400 ms (FindLiveObjects: 3.532600 ms CreateObjectMapping: 1.131000 ms MarkObjects: 58.265400 ms  DeleteObjects: 5.485100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 41081.558810 seconds.
+  path: Packages/com.unity.cloud.gltfast/Runtime/DocExamples/PngTextureAddon.cs
+  artifactKey: Guid(e77fb6b01275544b8a3e420cbb55bae5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cloud.gltfast/Runtime/DocExamples/PngTextureAddon.cs using Guid(e77fb6b01275544b8a3e420cbb55bae5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter)Curl error 3: URL rejected: Malformed input to a URL function
+ -> (artifact id: 'c4ea8d4b144c5da16ddba7e6ba9ec61b') in 0.4639589 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Packages/com.unity.cloud.gltfast/Runtime/Scripts/ImageConversionImageLoader.cs
+  artifactKey: Guid(9c1c94d4f1a844e94acc63fffcf517dc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cloud.gltfast/Runtime/Scripts/ImageConversionImageLoader.cs using Guid(9c1c94d4f1a844e94acc63fffcf517dc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4d21e9173ff6920c749c010eed0e1f6b') in 0.0742345 seconds
+Curl error 23: Failure writing output to destination, passed 293 returned 0
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Packages/com.unity.cloud.gltfast/Runtime/Scripts/DOTS/EntityInstantiator.cs
+  artifactKey: Guid(3353193499e7c42ef922dd9c367ced9f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cloud.gltfast/Runtime/Scripts/DOTS/EntityInstantiator.cs using Guid(3353193499e7c42ef922dd9c367ced9f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '72835ccb2dbfa746e7e2f6bacc7ad811') in 0.0283537 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Packages/com.unity.cloud.gltfast/Runtime/Scripts/Animations/AnimationModuleProcessorFactory.cs
+  artifactKey: Guid(6556516243c2418ebd49e2fdeb4f0f80) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cloud.gltfast/Runtime/Scripts/Animations/AnimationModuleProcessorFactory.cs using Guid(6556516243c2418ebd49e2fdeb4f0f80) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '166c236d3d9db2a0c5ddfb4cc48cb781') in 0.0737723 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Packages/com.unity.cloud.gltfast/Runtime/Scripts/ImportAddons/ImportAddonInstanceCollection.cs
+  artifactKey: Guid(c2168a7f3cad4d339edf613da79e0690) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cloud.gltfast/Runtime/Scripts/ImportAddons/ImportAddonInstanceCollection.cs using Guid(c2168a7f3cad4d339edf613da79e0690) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '90c5e048d758f4ff1e113728f6866950') in 0.0473342 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Packages/com.unity.cloud.gltfast/Runtime/Scripts/Loading/DefaultDownloadProvider.cs
+  artifactKey: Guid(cde7502e4d0bc40bbb8690ab2067a5b3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cloud.gltfast/Runtime/Scripts/Loading/DefaultDownloadProvider.cs using Guid(cde7502e4d0bc40bbb8690ab2067a5b3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bb42757121a0f05df69a635d7bef9b1a') in 0.0243361 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Packages/com.unity.cloud.gltfast/Runtime/Scripts/Newtonsoft/Schema/IJsonObject.cs
+  artifactKey: Guid(889e78445a4b4b2083daa1e7c96601a2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cloud.gltfast/Runtime/Scripts/Newtonsoft/Schema/IJsonObject.cs using Guid(889e78445a4b4b2083daa1e7c96601a2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '613dbb69fd5ddec8eafed2e723c2bc2c') in 0.0450147 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Packages/com.unity.cloud.gltfast/Runtime/Scripts/Schema/FakeSchema/MaterialExtension.cs
+  artifactKey: Guid(3fbb61750909c47b8985966c487e74ee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cloud.gltfast/Runtime/Scripts/Schema/FakeSchema/MaterialExtension.cs using Guid(3fbb61750909c47b8985966c487e74ee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '23abee419fd1249babe9cb1c70443c9b') in 0.0221707 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Packages/com.unity.cloud.gltfast/Runtime/Scripts/Schema/LightsPunctual.cs
+  artifactKey: Guid(b765f9e02011a4b179f65edd75f6a211) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cloud.gltfast/Runtime/Scripts/Schema/LightsPunctual.cs using Guid(b765f9e02011a4b179f65edd75f6a211) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd1d1e9f8ff7840df778110d460b56bec') in 0.0190361 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Packages/com.unity.cloud.gltfast/Editor/Scripts/GltfImporterEditor.cs
+  artifactKey: Guid(0b04a08654076497abec2857c0edb835) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cloud.gltfast/Editor/Scripts/GltfImporterEditor.cs using Guid(0b04a08654076497abec2857c0edb835) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7d693bd68874b07d3907b9fa1ee0d27f') in 0.0279526 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Packages/com.unity.cloud.gltfast/Runtime/Shader/Built-In/glTFPbrSpecularGlossiness.shader
+  artifactKey: Guid(f853aafa0bc764a138f572608a37a73c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cloud.gltfast/Runtime/Shader/Built-In/glTFPbrSpecularGlossiness.shader using Guid(f853aafa0bc764a138f572608a37a73c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6956d6d68c7479099ad237da64f72903') in 0.0434138 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Packages/com.unity.cloud.gltfast/Runtime/Scripts/MaterialsVariants/IMaterialsVariantsSlot.cs
+  artifactKey: Guid(266607c6e4de4c93a609c84e110a8ed1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cloud.gltfast/Runtime/Scripts/MaterialsVariants/IMaterialsVariantsSlot.cs using Guid(266607c6e4de4c93a609c84e110a8ed1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4d42ea775a9fcc8c356e4184d6b45bc7') in 0.0243348 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Packages/com.unity.cloud.gltfast/Runtime/Scripts/Schema/InterpolationType.cs
+  artifactKey: Guid(6d1390e2835e4bc28906f2b01e563f37) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cloud.gltfast/Runtime/Scripts/Schema/InterpolationType.cs using Guid(6d1390e2835e4bc28906f2b01e563f37) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '238675e4f65a7ec2f2f67742eaf7580d') in 0.0263301 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Packages/com.unity.cloud.gltfast/Runtime/Scripts/glTFast.asmdef
+  artifactKey: Guid(a42927d1d4a3b4cda9b076a7adecb9cc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cloud.gltfast/Runtime/Scripts/glTFast.asmdef using Guid(a42927d1d4a3b4cda9b076a7adecb9cc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '19d795f400f91e00da1109275a68b0c4') in 0.0264251 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Packages/com.unity.cloud.gltfast/Runtime/Scripts/Newtonsoft/Schema/Skin.cs
+  artifactKey: Guid(f8d07886c8a5f4dd99722516a51c87d9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cloud.gltfast/Runtime/Scripts/Newtonsoft/Schema/Skin.cs using Guid(f8d07886c8a5f4dd99722516a51c87d9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7ffab3da654e6a1de6bc16b0a7a862da') in 0.1421798 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Packages/com.unity.cloud.gltfast/Runtime/Scripts/AssemblyInfo.cs
+  artifactKey: Guid(5d4869bae2ff044a2a34703990de1679) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cloud.gltfast/Runtime/Scripts/AssemblyInfo.cs using Guid(5d4869bae2ff044a2a34703990de1679) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c2e644a23541a82d34948e0bc30cce7f') in 0.0273696 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Packages/com.unity.cloud.gltfast
+  artifactKey: Guid(12b57c5931a7569390678fb301802584) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cloud.gltfast using Guid(12b57c5931a7569390678fb301802584) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4449f9d42d92be6ad16448d05b9ad242') in 0.0298872 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Packages/com.unity.cloud.gltfast/Runtime/Scripts/IGltfAccessors.cs
+  artifactKey: Guid(ec61ae3b3e9c47fca62ed987b5651ad3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cloud.gltfast/Runtime/Scripts/IGltfAccessors.cs using Guid(ec61ae3b3e9c47fca62ed987b5651ad3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c973da6a30777f903f2a26dcee950bf9') in 0.0804155 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Packages/com.unity.cloud.gltfast/Runtime/Scripts/VertexBufferGenerator.cs
+  artifactKey: Guid(8b60579f6b59542c39228b0ad2af3007) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cloud.gltfast/Runtime/Scripts/VertexBufferGenerator.cs using Guid(8b60579f6b59542c39228b0ad2af3007) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1bb3f7b446b9fc7d35069e08d9926322') in 0.1318494 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Packages/com.unity.cloud.gltfast/Runtime/Scripts/VertexStructs.cs
+  artifactKey: Guid(b2eb9723632ed4b7f88e046f5faf06bb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cloud.gltfast/Runtime/Scripts/VertexStructs.cs using Guid(b2eb9723632ed4b7f88e046f5faf06bb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f651b24d324ef40e246030c2fea03f7b') in 0.0278473 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Packages/com.unity.cloud.gltfast/Runtime/Scripts/Schema/Material.cs
+  artifactKey: Guid(6fc5461f38ba347c9af28d46af9eb719) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cloud.gltfast/Runtime/Scripts/Schema/Material.cs using Guid(6fc5461f38ba347c9af28d46af9eb719) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '904f8e0e5eaf20df4529c58b87aeee83') in 0.0252417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Packages/com.unity.cloud.gltfast/Runtime/Scripts/Schema/MaterialExtensions.cs
+  artifactKey: Guid(f21fa7c34e6a84a56bd105b618088503) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cloud.gltfast/Runtime/Scripts/Schema/MaterialExtensions.cs using Guid(f21fa7c34e6a84a56bd105b618088503) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b26072a9b7e3254b987d8a73cb736d74') in 0.0516613 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Packages/com.unity.cloud.gltfast/Runtime/Scripts/Newtonsoft/Schema/PbrMetallicRoughness.cs
+  artifactKey: Guid(c3d3c3c28a91648bd8e0fc54e0990119) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cloud.gltfast/Runtime/Scripts/Newtonsoft/Schema/PbrMetallicRoughness.cs using Guid(c3d3c3c28a91648bd8e0fc54e0990119) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bf38c151aad4f73406cd6b8fad343070') in 0.0301544 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Packages/com.unity.cloud.gltfast/Runtime/Shader/Includes/Normal.cginc
+  artifactKey: Guid(30d0f0e3f526585408342f8854723a88) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cloud.gltfast/Runtime/Shader/Includes/Normal.cginc using Guid(30d0f0e3f526585408342f8854723a88) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f7dd821bd96ccde821f2ef7419cf1a3c') in 0.0222243 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Packages/com.unity.cloud.gltfast/Runtime/Scripts/Material/MaterialProperty.cs
+  artifactKey: Guid(46ffb279168944b629c5b48e26eeba18) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cloud.gltfast/Runtime/Scripts/Material/MaterialProperty.cs using Guid(46ffb279168944b629c5b48e26eeba18) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c38ea5558ca6bc32d31f06c41739a493') in 0.0261865 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Packages/com.unity.cloud.gltfast/Runtime/Scripts/UvTransform.cs
+  artifactKey: Guid(510ed86a32ba54bd686670620424afbc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cloud.gltfast/Runtime/Scripts/UvTransform.cs using Guid(510ed86a32ba54bd686670620424afbc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c94ee2b9fd46e8756e352158fe9b460c') in 0.0256669 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Packages/com.unity.cloud.gltfast/README.md
+  artifactKey: Guid(e56ab7110179f4e6a8c5562d60b8e514) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cloud.gltfast/README.md using Guid(e56ab7110179f4e6a8c5562d60b8e514) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9f11e763e448e12b1bfa97eea29be830') in 0.0224767 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Packages/com.unity.cloud.gltfast/Runtime/Scripts/sbyte4.cs
+  artifactKey: Guid(a8f23e44a1fe94ac1b62e4f79e5613bd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cloud.gltfast/Runtime/Scripts/sbyte4.cs using Guid(a8f23e44a1fe94ac1b62e4f79e5613bd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1a6c2c789056e3972a0087295365d70f') in 0.0243157 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Packages/com.unity.cloud.gltfast/Runtime/DocExamples/SimpleExport.cs
+  artifactKey: Guid(0515018949e5443cfa8e0ac0ea8b3f6d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cloud.gltfast/Runtime/DocExamples/SimpleExport.cs using Guid(0515018949e5443cfa8e0ac0ea8b3f6d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8b061ccc55a31f9e0b658896437c428f') in 0.0257499 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Packages/com.unity.cloud.gltfast/Runtime/Shader/Export/glTFExportNormal.shader
+  artifactKey: Guid(223792947f6cb461c93ef4d8df7b859c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cloud.gltfast/Runtime/Shader/Export/glTFExportNormal.shader using Guid(223792947f6cb461c93ef4d8df7b859c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '77691c87b2c1087141f3c3f1a30a4caa') in 0.0230102 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Packages/com.unity.cloud.gltfast/Runtime/Scripts/Export/GltfMaterialExporter.cs
+  artifactKey: Guid(41cd6c28a0b7473a8c4a8705f5c792f4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cloud.gltfast/Runtime/Scripts/Export/GltfMaterialExporter.cs using Guid(41cd6c28a0b7473a8c4a8705f5c792f4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '05dd87c6e0aa286be8babac7371f0a00') in 0.022331 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Packages/com.unity.cloud.gltfast/Runtime/Scripts/TimeBudgetPerFrameDeferAgent.cs
+  artifactKey: Guid(9b4deaa7b0bcd4e209aa26ae2d364689) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cloud.gltfast/Runtime/Scripts/TimeBudgetPerFrameDeferAgent.cs using Guid(9b4deaa7b0bcd4e209aa26ae2d364689) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fb8b73daee5806200fd66689a3d6e42b') in 0.0264142 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Packages/com.unity.cloud.gltfast/Runtime/Scripts/Newtonsoft/Schema/AnimationChannel.cs
+  artifactKey: Guid(9924e7076726848d688606dcd4503de2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cloud.gltfast/Runtime/Scripts/Newtonsoft/Schema/AnimationChannel.cs using Guid(9924e7076726848d688606dcd4503de2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '00bd7e5760ebbea5a4146e391caff43e') in 0.0597374 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Packages/com.unity.cloud.gltfast/Runtime/Scripts/AccessorUsage.cs
+  artifactKey: Guid(06080d8f74e694868be3567452bb8dd0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cloud.gltfast/Runtime/Scripts/AccessorUsage.cs using Guid(06080d8f74e694868be3567452bb8dd0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ab2055328946cfe7b3f3eb1634ccb280') in 0.0201562 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Packages/com.unity.cloud.gltfast/Runtime/Scripts/VertexBufferDescriptor.cs
+  artifactKey: Guid(4ac1953233a64ada8a6d04633cf18a55) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cloud.gltfast/Runtime/Scripts/VertexBufferDescriptor.cs using Guid(4ac1953233a64ada8a6d04633cf18a55) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1ce21af7437af3ca5cea268f41afcd88') in 0.0303796 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Packages/com.unity.cloud.gltfast/Runtime/Scripts/Export/glTFast.Export.asmdef
+  artifactKey: Guid(5e7ba8d6d26c84943b64dd07bd1c9510) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cloud.gltfast/Runtime/Scripts/Export/glTFast.Export.asmdef using Guid(5e7ba8d6d26c84943b64dd07bd1c9510) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e23a0fe400bdbf15538eba4f02bbd04f') in 0.0228062 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Packages/com.unity.cloud.gltfast/Runtime/Scripts/Export/GltfShaderGraphMaterialExporter.cs
+  artifactKey: Guid(2b6097c25c31a447186160b41fedd5df) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cloud.gltfast/Runtime/Scripts/Export/GltfShaderGraphMaterialExporter.cs using Guid(2b6097c25c31a447186160b41fedd5df) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cb26d8f439a34c030449ca1fa30a5868') in 0.0341955 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Packages/com.unity.cloud.gltfast/Runtime/Shader/Built-In/glTFIncludes/glTFUnityStandardCoreForward.cginc
+  artifactKey: Guid(919a7c90a60cf42689edaf61f0243ea9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cloud.gltfast/Runtime/Shader/Built-In/glTFIncludes/glTFUnityStandardCoreForward.cginc using Guid(919a7c90a60cf42689edaf61f0243ea9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '687f080fbb081d9ebde9730107696c05') in 0.0255396 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Packages/com.unity.cloud.gltfast/Runtime/Scripts/Schema/glTFast.Schema.asmref
+  artifactKey: Guid(725183ec9f23d44038632c926fd92512) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cloud.gltfast/Runtime/Scripts/Schema/glTFast.Schema.asmref using Guid(725183ec9f23d44038632c926fd92512) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '634d11a144257b51db374cdba5b03b24') in 0.0214856 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Packages/com.unity.cloud.gltfast/Runtime/Scripts/Material/Constants.cs
+  artifactKey: Guid(2ec0d38a2880d4e2886228f3008e670d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cloud.gltfast/Runtime/Scripts/Material/Constants.cs using Guid(2ec0d38a2880d4e2886228f3008e670d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2087a55f0074f3aaba27d8dcad9fcee3') in 0.0285912 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Packages/com.unity.cloud.gltfast/Runtime/Scripts/ImportSettings.cs
+  artifactKey: Guid(7b8df3b198c8b4133b57d32359c5b721) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cloud.gltfast/Runtime/Scripts/ImportSettings.cs using Guid(7b8df3b198c8b4133b57d32359c5b721) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c160685549a966b16b3297a0c4ff1140') in 0.029292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Packages/com.unity.cloud.gltfast/Runtime/Scripts/ReadOnlyNativeArray.cs
+  artifactKey: Guid(791451921d1d94b91a3e74f2e1c0ec4f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cloud.gltfast/Runtime/Scripts/ReadOnlyNativeArray.cs using Guid(791451921d1d94b91a3e74f2e1c0ec4f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd025c9fe594604d7c6743980bc1c9643') in 0.0224829 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Packages/com.unity.cloud.gltfast/Editor/Scripts/PackageSetupCheck.cs
+  artifactKey: Guid(433625e5684fd4f83b3ee45f614c2d7d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cloud.gltfast/Editor/Scripts/PackageSetupCheck.cs using Guid(433625e5684fd4f83b3ee45f614c2d7d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '09a4b4506c140192583ec0be008d7f83') in 0.0206174 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Packages/com.unity.cloud.gltfast/Runtime/Scripts/Newtonsoft/Schema/glTFast.Newtonsoft.Schema.asmref
+  artifactKey: Guid(90c6fa51ee8d2422ea41431cc8740008) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cloud.gltfast/Runtime/Scripts/Newtonsoft/Schema/glTFast.Newtonsoft.Schema.asmref using Guid(90c6fa51ee8d2422ea41431cc8740008) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6facd3ccc8aec5e5f5865aa994735c8a') in 0.0258839 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Packages/com.unity.cloud.gltfast/Runtime/Scripts/Newtonsoft/Schema/UnclassifiedData.cs
+  artifactKey: Guid(d58ed01ecd92540a0bfbc85c88414390) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cloud.gltfast/Runtime/Scripts/Newtonsoft/Schema/UnclassifiedData.cs using Guid(d58ed01ecd92540a0bfbc85c88414390) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '052bfff33cc32484006ca0f80a555cea') in 0.0185785 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
