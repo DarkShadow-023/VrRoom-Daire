@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\A00328296\\Downloads\\VrRoom- Daire\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\a00328296\\downloads\\vrroom- daire\\assets\\jerrypour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\jerrypour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\a00328296\\downloads\\vrroom- daire\\assets\\_course library\\scripts\\conditions\\ontilt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\_course library\\scripts\\conditions\\ontilt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\a00328296\\downloads\\vrroom- daire\\assets\\brokenpart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\brokenpart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\a00328296\\downloads\\vrroom- daire\\assets\\repairtool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\repairtool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\A00328296\\Downloads\\VrRoom- Daire\\Library\\PackageCache\\com.unity.render-pipelines.universal@7865b6b91f8a\\Shaders\\Lit.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.render-pipelines.universal@7865b6b91f8a\\Shaders\\Lit.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
@@ -29,7 +45,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "FIndAduio.cs",
               "DocumentMoniker": "C:\\Users\\A00328296\\Downloads\\Create-with-VR-U6_20260729_021619 (1)\\VrRoom- Daire\\Assets\\_Course Library\\FIndAduio.cs",
               "RelativeDocumentMoniker": "..\\Create-with-VR-U6_20260729_021619 (1)\\VrRoom- Daire\\Assets\\_Course Library\\FIndAduio.cs",
@@ -42,19 +58,70 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Lit.shader",
-              "DocumentMoniker": "C:\\Users\\A00328296\\Downloads\\VrRoom- Daire\\Library\\PackageCache\\com.unity.render-pipelines.universal@7865b6b91f8a\\Shaders\\Lit.shader",
-              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.universal@7865b6b91f8a\\Shaders\\Lit.shader",
-              "ToolTip": "C:\\Users\\A00328296\\Downloads\\VrRoom- Daire\\Library\\PackageCache\\com.unity.render-pipelines.universal@7865b6b91f8a\\Shaders\\Lit.shader",
-              "RelativeToolTip": "Library\\PackageCache\\com.unity.render-pipelines.universal@7865b6b91f8a\\Shaders\\Lit.shader",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
-              "WhenOpened": "2026-11-23T10:37:46.699Z",
+              "Title": "Jerrypour.cs",
+              "DocumentMoniker": "C:\\Users\\A00328296\\Downloads\\VrRoom- Daire\\Assets\\Jerrypour.cs",
+              "RelativeDocumentMoniker": "Assets\\Jerrypour.cs",
+              "ToolTip": "C:\\Users\\A00328296\\Downloads\\VrRoom- Daire\\Assets\\Jerrypour.cs",
+              "RelativeToolTip": "Assets\\Jerrypour.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-24T10:20:24.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OnTilt.cs",
+              "DocumentMoniker": "C:\\Users\\A00328296\\Downloads\\VrRoom- Daire\\Assets\\_Course Library\\Scripts\\Conditions\\OnTilt.cs",
+              "RelativeDocumentMoniker": "Assets\\_Course Library\\Scripts\\Conditions\\OnTilt.cs",
+              "ToolTip": "C:\\Users\\A00328296\\Downloads\\VrRoom- Daire\\Assets\\_Course Library\\Scripts\\Conditions\\OnTilt.cs",
+              "RelativeToolTip": "Assets\\_Course Library\\Scripts\\Conditions\\OnTilt.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAUwDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-24T10:18:12.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RepairTool.cs",
+              "DocumentMoniker": "C:\\Users\\A00328296\\Downloads\\VrRoom- Daire\\Assets\\RepairTool.cs",
+              "RelativeDocumentMoniker": "Assets\\RepairTool.cs",
+              "ToolTip": "C:\\Users\\A00328296\\Downloads\\VrRoom- Daire\\Assets\\RepairTool.cs",
+              "RelativeToolTip": "Assets\\RepairTool.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-24T09:57:53.659Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "BrokenPart.cs",
+              "DocumentMoniker": "C:\\Users\\A00328296\\Downloads\\VrRoom- Daire\\Assets\\BrokenPart.cs",
+              "RelativeDocumentMoniker": "Assets\\BrokenPart.cs",
+              "ToolTip": "C:\\Users\\A00328296\\Downloads\\VrRoom- Daire\\Assets\\BrokenPart.cs",
+              "RelativeToolTip": "Assets\\BrokenPart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-24T09:55:34.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Lit.shader",
+              "DocumentMoniker": "C:\\Users\\A00328296\\Downloads\\VrRoom- Daire\\Library\\PackageCache\\com.unity.render-pipelines.universal@7865b6b91f8a\\Shaders\\Lit.shader",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.universal@7865b6b91f8a\\Shaders\\Lit.shader",
+              "ToolTip": "C:\\Users\\A00328296\\Downloads\\VrRoom- Daire\\Library\\PackageCache\\com.unity.render-pipelines.universal@7865b6b91f8a\\Shaders\\Lit.shader",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.render-pipelines.universal@7865b6b91f8a\\Shaders\\Lit.shader",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2026-11-23T10:37:46.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "BallBounceSound.cs",
               "DocumentMoniker": "C:\\Users\\A00328296\\Downloads\\VrRoom- Daire\\Assets\\_Course Library\\_Prefabs\\BallBounceSound.cs",
               "RelativeDocumentMoniker": "Assets\\_Course Library\\_Prefabs\\BallBounceSound.cs",
@@ -66,7 +133,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "ReticleRotation.cs",
               "DocumentMoniker": "C:\\Users\\A00328296\\Downloads\\VrRoom- Daire\\Assets\\ReticleRotation.cs",
               "RelativeDocumentMoniker": "Assets\\ReticleRotation.cs",
